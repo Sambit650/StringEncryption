@@ -24,7 +24,7 @@ class DecryptViewController: UIViewController {
     
     @IBAction func DecryptSubmit(_ sender: Any) {
         
-        //Decryption
+        //Decryption method
         let oldDecArray = Array(DecryptTextfield.text!)
         var decArray = ""
         
